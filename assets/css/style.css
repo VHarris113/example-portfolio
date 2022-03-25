@@ -1,13 +1,16 @@
-/* * {
-    background-color: black;
-    color: white;
-} */
+body {
+    background-color: #0fbde9;
+}
 
 header {
-    padding: 20px;
+    padding: 50px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-image: url(https://media.istockphoto.com/vectors/dog-paw-print-seamless-template-for-your-design-wrapping-paper-card-vector-id1189999011?k=20&m=1189999011&s=612x612&w=0&h=9eMCLyVX4dfamqPElUK7alrlccLl2uThthoNkgqTi0o=);
     color: #000000;
+}
+
+h1 {
+    margin: 0
 }
 
 header h1 {
@@ -36,10 +39,7 @@ header nav ul li {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
-}
-
-main {
-    background-color: #0fbde9;
+    margin-top: 30px;
 }
 
 .biography {
@@ -47,8 +47,14 @@ main {
     justify-content: flex-end;
 }
 
+.biography img {
+    margin-top: 20px;
+}
+
 .mybio {
-    padding: 10px;
+    margin-left: 10px;
+    margin-right: 100px;
+    margin-bottom: 20px;
 }
 
 
@@ -58,9 +64,10 @@ main {
 }
 
 footer {
-    position: static;
-    margin-top: 100px;
-    background-image: url(https://media.istockphoto.com/vectors/dog-paw-print-seamless-template-for-your-design-wrapping-paper-card-vector-id1189999011?k=20&m=1189999011&s=612x612&w=0&h=9eMCLyVX4dfamqPElUK7alrlccLl2uThthoNkgqTi0o=);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
 }
 .contact {
     display: flex;
