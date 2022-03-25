@@ -60,7 +60,18 @@ header nav ul li {
 
 .projects {
     display: flex;
-    justify-content: flex-end;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.p1,
+.p2,
+.p3,
+.p4,
+.p5,
+.p6 {
+    display: flexbox;
+    justify-content: space-evenly;
 }
 
 footer {
